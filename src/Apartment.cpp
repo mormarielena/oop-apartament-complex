@@ -1,4 +1,4 @@
-#include "Apartment.h"
+#include "../include/Apartment.h"
 
 int Apartment::totalApartments = 20;
 

@@ -1,4 +1,4 @@
-#include "Penthouse.h"
+#include "../include/Penthouse.h"
 
 Penthouse::Penthouse() : Apartment(), bedrooms(4), bathrooms(2) {
     energyConsumption = new int[bedrooms];

@@ -1,10 +1,10 @@
 #include <iostream>
-#include "Apartment.h"
-#include "Building.h"
-#include "Resident.h"
-#include "ResidentialComplex.h"
-#include "Penthouse.h"
-#include "OfficeBuilding.h"
+#include "../include/Apartment.h"
+#include "../include/Building.h"
+#include "../include/Resident.h"
+#include "../include/ResidentialComplex.h"
+#include "../include/Penthouse.h"
+#include "../include/OfficeBuilding.h"
 
 int main() {
     std::cout << "--- Apartment Complex Management System ---\n\n";

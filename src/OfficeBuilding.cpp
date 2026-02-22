@@ -1,4 +1,4 @@
-#include "OfficeBuilding.h"
+#include "../include/OfficeBuilding.h"
 
 OfficeBuilding::OfficeBuilding() : Building(), corpName("FizzyEnts"), officeCount(7) {
     officesPerFloor = new int[officeCount];

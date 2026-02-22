@@ -1,4 +1,4 @@
-#include "Resident.h"
+#include "../include/Resident.h"
 
 int Resident::maxResidents = 4;
 

@@ -127,26 +127,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Apartment.cpp" />
-    <ClCompile Include="Building.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="OfficeBuilding.cpp" />
-    <ClCompile Include="Penthouse.cpp" />
-    <ClCompile Include="Resident.cpp" />
-    <ClCompile Include="ResidentialComplex.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Apartment.h" />
-    <ClInclude Include="Building.h" />
-    <ClInclude Include="ICommercialBuilding.h" />
-    <ClInclude Include="IShortTermRental.h" />
-    <ClInclude Include="OfficeBuilding.h" />
-    <ClInclude Include="Penthouse.h" />
-    <ClInclude Include="Resident.h" />
-    <ClInclude Include="ResidentialComplex.h" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Apartment.h" />
+    <ClInclude Include="include\Building.h" />
+    <ClInclude Include="include\ICommercialBuilding.h" />
+    <ClInclude Include="include\IShortTermRental.h" />
+    <ClInclude Include="include\OfficeBuilding.h" />
+    <ClInclude Include="include\Penthouse.h" />
+    <ClInclude Include="include\Resident.h" />
+    <ClInclude Include="include\ResidentialComplex.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Apartment.cpp" />
+    <ClCompile Include="src\Building.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\OfficeBuilding.cpp" />
+    <ClCompile Include="src\Penthouse.cpp" />
+    <ClCompile Include="src\Resident.cpp" />
+    <ClCompile Include="src\ResidentialComplex.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,4 @@
-#include "ResidentialComplex.h"
+#include "../include/ResidentialComplex.h"
 
 ResidentialComplex::ResidentialComplex() : complexName("CORESI TOWN"), buildYear(2021), totalAps(1) {
     apartmentList = new Apartment[totalAps];
