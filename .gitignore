@@ -1,0 +1,22 @@
+# Visual Studio cache and user files
+.vs/
+*.user
+*.suo
+Apartmen.*/
+Apartmen.ff675c27/
+
+# Build results
+Debug/
+Release/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Compiled files
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.idb
+*.obj
